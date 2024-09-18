@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: is;
+  src: url(./fonts/IranianSans.ttf);
+}
+html,body{
+  font-family: is;
+}
+.bg{
+  background: linear-gradient(50deg,#00abf7,#007aef);
+}
+.p-hover{
+  transition: 1s;
+  &:hover{
+    color: #c9a659;
+   
+    border-bottom: 1px solid #c9a659;
+  }
+}
+.box-hover{
+  transition:1s;
+  &:hover{
+    transform: translateY(-10px);
+   
+  }
+}
+.page2{
+  transition:1s;
+  &:hover{
+    transform: perspective(900px)translate3d(0 ,-10px ,-10px);
+    box-shadow: 0 0 20px 0 black;
+  }
+}
+.fourth{
+  background-image: url(./components/img/elements_bg2.webp);
+  background-size: cover;
+
+  background-position: center;
+  
+}
+.butt{
+  transition:1s;
+  &:hover{
+    background-color: #f26322;
+
+  }
+}
+.fifth{
+  background-image: url(./components/img/back-suggestions.webp);
+  background-size: cover;
+
+  background-position: center;
+}
+.mega-menu {
+  display: none; /* Initially hidden */
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 20px;
+}
+
+.header-item:hover + .mega-menu {
+  display: block; /* Show on hover */
+}
+.headr{
+  transition: .5s;
+  padding: 10px;
+  
+}
+.hoverm{
+  
+  transition: .5s;
+  &:hover{
+    background-color: #007aef;
+  }
+}
+.hb{
+  transition: .5s;
+  &:hover{
+    background-color: #00abf7;
+  }
+}
+.redd{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff3208;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
