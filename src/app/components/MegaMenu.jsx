@@ -25,8 +25,8 @@ const MegaMenu = () => {
         >
             <Box sx={{ display: 'flex', justifyContent: 'space-between' }} className="*:font-is">
                 {/* Column 1 */}
-                <Box sx={{ width: '25%' }}>
-                    <Typography sx={{ borderBottom: '2px solid #facf54', }} className='font-is text-[12px] font-extrabold'>خدمات اینترنت</Typography>
+                <Box sx={{ width: '25%',fontFamily:'is' }}>
+                    <Typography sx={{ borderBottom: '2px solid #facf54',fontWeight:'bolder' }} className='font-is text-[12px] font-extrabold'>خدمات اینترنت</Typography>
                     <Typography className='font-is text-[13px]'>اینترنت فیبر نوری</Typography>
                     <Typography className='font-is text-[13px]'>+ADSL2</Typography>
                     <Typography className='font-is text-[13px]'>VDSL</Typography>
@@ -34,8 +34,8 @@ const MegaMenu = () => {
                 </Box>
 
                 {/* Column 2 */}
-                <Box sx={{ width: '25%' }}>
-                    <Typography sx={{ borderBottom: '2px solid #facf54', }} className='font-is text-[12px] font-extrabold'>خدمات تلفن</Typography>
+                <Box sx={{ width: '25%' ,fontFamily:'is'}}>
+                    <Typography sx={{ borderBottom: '2px solid #facf54',fontWeight:'bolder' }} className='font-is text-[12px] font-extrabold'>خدمات تلفن</Typography>
                     <Typography className='font-is text-[13px]'>خدمات تلفن خانگی</Typography>
                 
 
@@ -43,15 +43,15 @@ const MegaMenu = () => {
                 </Box>
 
                 {/* Column 3 */}
-                <Box sx={{ width: '25%' }}>
-                    <Typography sx={{ borderBottom: '2px solid #facf54', }} className='font-is text-[12px] font-extrabold'>خدمات همراه </Typography>
+                <Box sx={{ width: '25%' ,fontFamily:'is'}}>
+                    <Typography sx={{ borderBottom: '2px solid #facf54',fontWeight:'bolder' }} className='font-is text-[12px] font-extrabold'>خدمات همراه </Typography>
                     <Typography className='font-is text-[13px]'>شاتل موبایل </Typography>
                     <Typography className='font-is text-[13px]'>FMC</Typography>
                     {/* Add more items as needed */}
                 </Box>
                 {/* Column 4 */}
-                <Box sx={{ width: '25%' }}>
-                    <Typography sx={{ borderBottom: '2px solid #facf54', }} className='font-is text-[12px] font-extrabold'>خدمات محتوا</Typography>
+                <Box sx={{ width: '25%', fontFamily:'is'}}>
+                    <Typography sx={{ borderBottom: '2px solid #facf54', fontWeight:'bolder'}} className='font-is text-[12px] font-extrabold'>خدمات محتوا</Typography>
                     <Typography className='font-is text-[13px]'>نماوا</Typography>
                     {/* Add more items as needed */}
                 </Box>
