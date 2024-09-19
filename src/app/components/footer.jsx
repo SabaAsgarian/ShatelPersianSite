@@ -34,7 +34,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function footer() {
     return (
         <>
-            <Box sx={{ width: '100%', height: 'auto', display: 'flex', justifyContent: 'start', alignItems: 'start', backgroundColor: '#242c39', marginTop: '10%', color: 'white',direction:'rtl' ,borderTop:'10px solid #60e5bd' ,paddingRight: '10%', paddingLeft: '12%'}} className="*:font-is">
+            <Box sx={{ width: '100%', height: 'auto', display: 'flex', justifyContent: 'start', alignItems: 'start', backgroundColor: '#242c39', marginTop: '10%', color: 'white',direction:'rtl' ,borderTop:'10px solid #60e5bd' ,paddingRight: '10%', fontFamily:'is',paddingLeft: '12%'}} className="*:font-is">
                 <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%',  marginLeft: '5%', marginTop:'5%',direction:'rtl' }}> {/* Changed to column */}
               
             
