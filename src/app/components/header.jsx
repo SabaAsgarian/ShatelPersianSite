@@ -483,7 +483,7 @@ export default function PrimarySearchAppBar() {
                 )}
             </Box>
             <HeaderContainer isFixed={isFixed}>
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', fontFamily:'is'}}>
                     <Image src={logo} alt='logo' />
                     <Box dir='rtl' sx={{ display: { xs: 'none', md: 'flex' } }} className="*:font-is">
                         <Box sx={{ position: 'relative' }}>
