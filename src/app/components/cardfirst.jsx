@@ -10,7 +10,7 @@ const Cardd = ({ image, title,description }) => {
                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '110px' }}>
                     <Image src={image} alt={title} width={100} height={100} style={{ objectFit: 'cover' }} />
                 </Box>
-                <Typography component="div" sx={{ textAlign: 'center', marginTop: '10px' }} className='font-is text-[15px] font-extrabold'>
+                <Typography component="h6" sx={{ textAlign: 'center', marginTop: '10px' }} className='font-is text-[15px] font-extrabold'>
                     {title}
                 </Typography>
                 <Typography  component="div" sx={{ textAlign: 'center', marginTop: '10px' }} className='font-is text-[12px] text-[#6A6B6E]'>
