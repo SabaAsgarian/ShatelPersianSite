@@ -387,7 +387,7 @@ export default function PrimarySearchAppBar() {
                                     style={{ color: 'white', textDecoration: 'none', display: 'flex', alignContent: 'center', justifyContent: 'center' }}
                                 >
                                     <CallIcon className='flex justify-center items-center text-[14px]' />
-                                    <Typography sx={{ marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
+                                    <Typography sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
                                 </Link>
                                 <Link
                                     href="/"
@@ -413,7 +413,7 @@ export default function PrimarySearchAppBar() {
                                 </IconButton >
                                 <Box sx={{ display: 'flex', fontSize: '12px', alignItems: 'center', justifyContent: 'center' }}>
                                     <CallIcon className='flex justify-center items-center text-[14px]'/>
-                                    <Typography variant="h6" sx={{ marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
+                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
                                 </Box>
                             </Box>
                         )}
