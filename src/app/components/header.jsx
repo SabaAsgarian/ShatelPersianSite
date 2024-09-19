@@ -490,6 +490,7 @@ export default function PrimarySearchAppBar() {
                             <Typography
 
                                 sx={{
+                                    fontFamily:'is',
                                     cursor: 'pointer',
                                     '&:hover + div': {
                                         display: 'block', // Show mega menu on hover
@@ -505,6 +506,7 @@ export default function PrimarySearchAppBar() {
                             <Typography
 
                                 sx={{
+                                    fontFamily:'is',
                                     cursor: 'pointer',
                                     '&:hover + div': {
                                         display: 'block', // Show mega menu on hover
@@ -524,7 +526,7 @@ export default function PrimarySearchAppBar() {
                     <SearchIcon sx={{ backgroundColor: "#cccdd1", borderRadius: '50%', color: 'white', width: '40px', height: '40px', marginLeft: '10px' }} className='text-[10px]' />
                     <Button sx={{ backgroundColor: '#56c45f', borderRadius: '20px', color: 'white', width: '190px' }} >
                         <PersonOutlineIcon />
-                        <Typography className='text-[14px] font-is'>
+                        <Typography sx={{fontFamily:'is'}} className='text-[14px] font-is'>
 
                             ورود به مای شاتل
 
