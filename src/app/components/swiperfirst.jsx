@@ -16,7 +16,7 @@ import c from './img/3.webp'
 import d from './img/4.webp'
 import e from './img/5.webp'
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules'; {/* Ensure Autoplay is imported */ }
-
+import '../globals.css'
 export default function App() {
   const pagination = {
     clickable: true,

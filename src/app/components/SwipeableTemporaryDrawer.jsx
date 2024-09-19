@@ -42,7 +42,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { useMediaQuery } from '@mui/material';
 import MuiAppBar from '@mui/material/AppBar';
  // Import axios for API calls
-
+import '../globals.css'
 // New styled component for the header
 const HeaderContainer = muiStyled(Box)(({ theme }) => ({
   backgroundColor: '#f1eee4',

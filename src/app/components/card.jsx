@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import Image from 'next/image';
 import { Description } from '@mui/icons-material';
-
+import '../globals.css'
 const CustomCard = ({ image, title }) => {
     return (
         <Card sx={{ width: { xs: '100%', sm: '100%', md: '20%' }, margin: '10px' ,direction:'rtl'}} className="my-10 page2">

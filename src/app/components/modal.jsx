@@ -11,6 +11,7 @@ import { Height } from '@mui/icons-material';
 import Image from 'next/image';
 import sup from './img/sup.png'
 import sell from './img/sell.png'
+import '../globals.css'
 const style = {
   position: 'absolute',
   bottom: '10%',

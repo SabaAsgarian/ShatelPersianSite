@@ -15,7 +15,7 @@ import fone from './img/200.200-01-2.webp'
 import { Keyboard, Scrollbar, Navigation, Pagination,Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 import CardBigtwo from './cardswiper';
-
+import '../globals.css'
 const slideData = [
     [
         { image: aone, title: 'اینترنت پر سرعت شاتل اینبار در دیجی کالا', titlesub: 'بالاترین سرعت، با مناسب‌‌ترین هزینه برای کاربران خانگی', p: 'در این روش می‌توانید اینترنت پرسرعت را با سرعت متوسط ۷۰ مگابیت بر ثانیه، با قیمتی به مراتب ارزان‌تر از ADSL دریافت کنید. این سرویس هم برای کاربران خانگی و هم برای کسب‌وکارها مورد استفاده قرار می‌گیرد.شاتل ارائه خدمات اینترنت پرسرعت بر بستر FTTC را برای نخستین بار در کشور آغاز کرده است.', butt: 'اطلاعات بیشتر' },

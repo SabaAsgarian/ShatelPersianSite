@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Box, Button, Card, CardContent, Typography } from '@mui/material';
 import CardMedia from '@mui/material/CardMedia';
 import Image from 'next/image'; // Ensure you're using the Next.js Image component
-
+import '../globals.css'
 export default function CardBig({ image, title,titlesub,p,butt }) {
   return (
     <Card sx={{ display: 'flex', direction: 'rtl', boxShadow: 'none', flexDirection: { xs: 'column', sm: 'column', md: 'row' } ,borderRadius: '20px'}} className='mx-10' >

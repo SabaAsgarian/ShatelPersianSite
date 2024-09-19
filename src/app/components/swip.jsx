@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import './style.css';
-
+import '../globals.css'
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Box, Button, Typography } from '@mui/material';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import Image from 'next/image';
-
+import '../globals.css'
 
 const Cardd = ({ image, title,description }) => {
     return (

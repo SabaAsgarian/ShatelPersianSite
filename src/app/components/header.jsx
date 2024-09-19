@@ -47,7 +47,7 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import MegaMenu from './MegaMenu';
 import MegaMenup from './MegaMenup';
 import React, { useEffect, useRef } from 'react';
-
+import '../globals.css'
 const HeaderContainer = styled(Box)(({ isFixed }) => ({
     display: 'flex',
     alignItems: 'center',
@@ -323,7 +323,7 @@ export default function PrimarySearchAppBar() {
         <>
 
 
-            <Box sx={{ display: 'flex' }}>
+            <Box sx={{ display: 'flex' }} className="*:font-is">
                 <CssBaseline />
                 <AppBar>
                     <Toolbar>

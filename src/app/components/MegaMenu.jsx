@@ -3,6 +3,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import Image from 'next/image'; // Ensure you're using the Next.js Image component
 import phone from './img/phon.png'
+import '../globals.css'
 const MegaMenu = () => {
     return (
         <Box
