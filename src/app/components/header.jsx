@@ -333,7 +333,7 @@ export default function PrimarySearchAppBar() {
 
 
                         {/* Right Links and Menu */}
-                        <Box sx={{ flexGrow: 1, direction: 'rtl', display: 'flex', justifyContent: 'space-between', marginRight:{xs:'0%',md:'10%'}, marginLeft:{xs:'0%',md:'10%'} }} className='font-is *:text-[12px] *:font-extrabold'>
+                        <Box sx={{ fontFamily:'is',flexGrow: 1, direction: 'rtl', display: 'flex', justifyContent: 'space-between', marginRight:{xs:'0%',md:'10%'}, marginLeft:{xs:'0%',md:'10%'} }} className='font-is *:text-[12px] *:font-extrabold'>
                             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                                 <Link
                                     href="/"
