@@ -23,7 +23,7 @@ import CustomCard from './components/card'
 import Cardd from './components/cardfirst'
 import CardBig from './components/cardBig'
 import CardBigtwo from './components/cardBigtwo'
-import SecondSwiper from './components/swipersecond'
+import SecondSwiper from './components/swip'
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 import TransitionsModal from './components/modal'
