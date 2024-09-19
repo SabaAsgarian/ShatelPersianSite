@@ -108,7 +108,7 @@ export default function page() {
       {/* fifth///////////////////////////////////////////// */}
       <Box sx={{ height: 'auto', width: '100%', }} className='fifth'>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', height: '20%' }} className="">
-          <h1 className='font-is font-extrabold text-[20px] text-black my-[5%]'>پیشنهادها</h1>
+          <h1 className='font-is text-[28px] text-black font-extrabold my-[5%]'>پیشنهادها</h1>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
           <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', width: '80%', height: '100%' }} className="my-7">
@@ -119,7 +119,7 @@ export default function page() {
       {/* last */}
       <Box sx={{ width: '100%', height: 'auto', direction: 'rtl' }} >
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', height: '20%' }}>
-          <h1 className='font-is font-extrabold text-[20px] text-black my-[5%]'>اخبار و تازه‌ها</h1>
+          <h1 className='font-is font-extrabold text-[28px] text-black my-[5%]'>اخبار و تازه‌ها</h1>
         </Box>
        <Box sx={{width:'100%', height:'80%', display:'flex'}} className='p-[10%]'>
 
