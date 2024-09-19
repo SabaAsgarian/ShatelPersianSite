@@ -323,7 +323,7 @@ export default function PrimarySearchAppBar() {
         <>
 
 
-            <Box sx={{ display: 'flex' }} className="*:font-is">
+            <Box sx={{ fontFamily:'is',display: 'flex' }} className="*:font-is">
                 <CssBaseline />
                 <AppBar>
                     <Toolbar>
