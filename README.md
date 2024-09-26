@@ -9,7 +9,7 @@ Shatel Site Persian
 - Developed by Saba Asgarian
 - Created - 2024-09-18
 
-- Technologies Used - Html,Css,Nextjs,Materialui,react,Tailwind
+- Technologies Used - Html,Css,Nextjs,Materialui,React,Tailwind
 
 - Hooks Used : useState 
 
