@@ -1,5 +1,5 @@
 # ShatelPersianSite
-Shatel Persian Site. 
+Shatel Persian Site 
 
 
 
