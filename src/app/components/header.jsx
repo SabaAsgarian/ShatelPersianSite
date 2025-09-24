@@ -384,9 +384,9 @@ export default function PrimarySearchAppBar() {
                                 </Link>
                                 <Link
                                     href="/"
-                                    style={{ color: 'white', textDecoration: 'none', display: 'flex', alignContent: 'center', justifyContent: 'center' }}
+                                    style={{ color: 'white', textDecoration: 'none', display: 'flex', alignContent: 'center', justifyContent: 'center',fontFamily:'is' }}
                                 >
-                                    <CallIcon className='flex justify-center items-center text-[14px]' />
+                                    <CallIcon className='flex justify-center items-center text-[12px]' />
                                     <Typography sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
                                 </Link>
                                 <Link
@@ -541,6 +541,7 @@ export default function PrimarySearchAppBar() {
         </>
     );
 }
+
 
 
 
