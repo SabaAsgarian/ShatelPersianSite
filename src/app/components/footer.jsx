@@ -25,6 +25,7 @@ const Item = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(1),
     textAlign: 'start',
     color: theme.palette.text.secondary,
+    fontFamily:"is",
     boxShadow: 'none', // {{ edit_1 }} Remove box shadow
     ...theme.applyStyles('dark', {
         backgroundColor: '#242c39',
@@ -50,20 +51,20 @@ export default function footer() {
                         <Item><a href="#link1" style={{ color: 'white', textDecoration: 'none',direction:'rtl'}}>
                         
 
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl'}}>ارتباط با ما</p>
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl'}}>فرصت‌های شغلی</p>
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl'}}>نمایندگان فروش</p>
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl'}}>سوالات متداول</p>
+                            <p className="p-hover"  sx={{fontFamily:"is", textAlign: 'right', direction: 'rtl'}}>ارتباط با ما</p>
+                            <p className="p-hover"  sx={{fontFamily:"is", textAlign: 'right', direction: 'rtl'}}>فرصت‌های شغلی</p>
+                            <p className="p-hover"  sx={{fontFamily:"is", textAlign: 'right', direction: 'rtl'}}>نمایندگان فروش</p>
+                            <p className="p-hover"  sx={{fontFamily:"is", textAlign: 'right', direction: 'rtl'}}>سوالات متداول</p>
 
 
                         </a></Item>
                         <Item><a href="#link1" style={{ color: 'white', textDecoration: 'none' }}>
                            
 
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl',}}>اخبار</p>
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl',}}>صدای مشتری</p>
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl',}}>مناقصه‌ها و مزایده‌ها</p>
-                            <p className="p-hover"  sx={{ textAlign: 'right', direction: 'rtl',}}>سامانه رضایت‌سنجی</p>
+                            <p className="p-hover"  sx={{fontFamily:"is",textAlign: 'right', direction: 'rtl',}}>اخبار</p>
+                            <p className="p-hover"  sx={{fontFamily:"is",textAlign: 'right', direction: 'rtl',}}>صدای مشتری</p>
+                            <p className="p-hover"  sx={{fontFamily:"is",textAlign: 'right', direction: 'rtl',}}>مناقصه‌ها و مزایده‌ها</p>
+                            <p className="p-hover"  sx={{fontFamily:"is",textAlign: 'right', direction: 'rtl',}}>سامانه رضایت‌سنجی</p>
                           
 
 
@@ -77,7 +78,7 @@ export default function footer() {
                             <Item sx={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                                 <Image src={Me} alt="me" width={100} height={100} style={{borderRadius:'50%' ,backgroundColor:'#63799e',color:'white'}} />
                                <Typography className="text-[#60E5BD] mx-5">کدنویسی با صبا عسگریان</Typography>
-                                <Link href='https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr' target="_blank" >
+                                <Link href='https://www.instagram.com/saba_asgarian_' target="_blank" >
                                     <Box sx={{background:'radial-gradient(circle at 33% 100%,#fed373 4%,#f15245 30%,#d92e7f 62%,#9b36b7 85%,#515ecf)',borderRadius:'50%',width:'40px',height:'40px',display:'flex',justifyContent:'center',alignItems:'center'}} className=" mx-2 box-hover">
                                     <InstagramIcon sx={{ color: 'white', ml: '2%' }} /> 
                                     </Box>
@@ -92,7 +93,7 @@ export default function footer() {
                                     <GitHubIcon sx={{ color: 'white', ml: '2%' }} /> {/* Set color here */}
                                 </Box>
                                 </Link>
-                                <Link href='mailto:computer.sabaa@gmail.co'>
+                                <Link href='mailto:sabaasgariandev@gmail.co'>
                                 <Box sx={{backgroundColor:'red',borderRadius:'50%',width:'40px',height:'40px',display:'flex',justifyContent:'center',alignItems:'center'}}  className=" mx-2 box-hover">
                                     <MailIcon sx={{ color: 'white', ml: '2%', }} /> {/* Set color here */}
                                 </Box>
