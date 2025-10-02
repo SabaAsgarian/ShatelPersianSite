@@ -421,8 +421,8 @@ export default function PrimarySearchAppBar() {
                                 </IconButton >
                                 <Box sx={{ display: 'flex', fontSize: '10px', alignItems: 'center', justifyContent: 'center' }}>
                                     <CallIcon className='flex justify-center items-center text-[14px]'/>
-                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1,fontSize:"10px" }} className='font-is font-extrabold text-[10px]'> ۰۲۱۹۱۰۰۰۰۰۰  </Typography>
-                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1,fontSize:"10px" }} className='font-is font-extrabold text-[10px]'> شماره سراسری  </Typography>
+                                    <Typography  sx={{ fontFamily:'is', marginLeft: 1,fontSize:"10px" }} className='font-is font-extrabold text-[10px]'> ۰۲۱۹۱۰۰۰۰۰۰  </Typography>
+                                    <Typography  sx={{ fontFamily:'is', marginLeft: 1,fontSize:"10px" }} className='font-is font-extrabold text-[10px]'> شماره سراسری  </Typography>
                                 </Box>
                             </Box>
                         )}
@@ -495,6 +495,7 @@ export default function PrimarySearchAppBar() {
                 <Box sx={{ display: 'flex', alignItems: 'center', fontFamily:'is'}}>
                     <Image src={logo} alt='logo' />
                     <Box dir='rtl' sx={{ display: { xs: 'none', md: 'flex' } }} className="*:font-is">
+                        <li className='list-none font-is text-[12px] font-bold mr-5 text-[#4f4f4f]'>
                         <Box sx={{ position: 'relative' }}>
                             <Typography
 
@@ -512,6 +513,8 @@ export default function PrimarySearchAppBar() {
                             </Typography>
                             <MegaMenu /> {/* Include the MegaMenu component */}
                         </Box>
+                        </li>
+                        <li className='list-none font-is text-[12px] font-bold mr-5 text-[#4f4f4f]'>
                         <Box sx={{ position: 'relative', }} className="mx-3">
                             <Typography
 
@@ -529,6 +532,7 @@ export default function PrimarySearchAppBar() {
                             </Typography>
                             <MegaMenup /> {/* Include the MegaMenu component */}
                         </Box>
+                        </li>
                         <li className='list-none font-is text-[12px] font-bold mr-5 text-[#4f4f4f]'>چرا شاتل؟</li>
 
                     </Box>
