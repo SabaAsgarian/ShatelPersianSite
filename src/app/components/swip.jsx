@@ -54,7 +54,7 @@ export default function App() {
                 <SwiperSlide>
 
 
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px',margin:"15%" }} >
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: {xs:"300px",md:'200px'},margin:"15%" }} >
                         <Box sx={{ width: '40%', height: '100%' }} >
                             <Image src={aone} style={{ width: '90%', height: '100%', borderRadius: '20px' }} />
                         </Box>
@@ -69,7 +69,7 @@ export default function App() {
 
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px',margin:"15%" }} >
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: {xs:"300px",md:'200px'},margin:"15%" }} >
                         <Box sx={{ width: '40%', height: '100%' }} >
                             <Image src={bone} style={{ width: '90%', height: '100%', borderRadius: '20px' }} />
                         </Box>
@@ -83,7 +83,7 @@ export default function App() {
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center',height: '200px',margin:"15%" }} >
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center',height: {xs:"300px",md:'200px'},margin:"15%" }} >
                         <Box sx={{ width: '40%', height: '100%' }}>
                             <Image src={cone} style={{ width: '90%', height: '100%', borderRadius: '20px' }} />
                         </Box>
@@ -97,7 +97,7 @@ export default function App() {
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px',margin:"15%" }} >
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: {xs:"300px",md:'200px'},margin:"15%" }} >
                         <Box sx={{ width: '40%', height: '100%' }} >
                             <Image src={done} style={{ width: '90%', height: '100%', borderRadius: '20px' }} />
                         </Box>
@@ -111,7 +111,7 @@ export default function App() {
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px',margin:"15%" }} >
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: {xs:"300px",md:'200px'},margin:"15%" }} >
                         <Box sx={{ width: '40%', height: '100%' }} >
                             <Image src={eone} style={{ width: '90%', height: '100%', borderRadius: '20px' }} />
                         </Box>
@@ -125,7 +125,7 @@ export default function App() {
                     </Box>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px',margin:"15%" }} >
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center',height: {xs:"300px",md:'200px'},margin:"15%" }} >
                         <Box sx={{ width: '40%', height: '100%' }} >
                             <Image src={fone} style={{ width: '100%', height: '100%', borderRadius: '20px' }} />
                         </Box>
