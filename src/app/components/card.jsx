@@ -5,7 +5,7 @@ import { Description } from '@mui/icons-material';
 import '../globals.css'
 const CustomCard = ({ image, title }) => {
     return (
-        <Card sx={{ width: { xs: '100%', sm: '100%', md: '20%' }, margin: '10px' ,direction:'rtl',transition:"1s"}} className="my-10 page2">
+        <Card sx={{marginTop:"5%",marginBottom:"5%", width: { xs: '100%', sm: '100%', md: '20%' }, margin: '10px' ,direction:'rtl',transition:"1s"}} className="my-10 page2">
             <CardContent>
                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '110px' }}>
                     <Image src={image} alt={title} width={100} height={100} style={{ objectFit: 'cover' }} />
@@ -20,4 +20,5 @@ const CustomCard = ({ image, title }) => {
 };
 
 export default CustomCard;
+
 
