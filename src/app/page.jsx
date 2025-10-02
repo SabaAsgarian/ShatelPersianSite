@@ -57,7 +57,7 @@ const cardDataBigtwo = [
 ];
 export default function page() {
   return (
-    <div dir='rtl' className='font-is'>
+    <Box sx={{direction:"rtl",fontFamily:"is"}}>
       <Header />
       <Swiperfirst />
 
@@ -84,7 +84,7 @@ export default function page() {
       {/* third ////////////////////////////////////////////////////////*/}
       <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', backgroundColor: '#f6f7fa', height: 'auto', direction: 'rtl' }} >
         {cardData.map((card, index) => (
-          <CustomCard key={index} image={card.image} title={card.title} />
+          <CustomCard key={index} image={card.image} title={card.title}  />
         ))}
       </Box>
       {/* four/////////////////////////////////// */}
@@ -111,7 +111,7 @@ export default function page() {
           <h1 className='font-is text-[28px] text-black font-extrabold my-[5%]'>پیشنهادها</h1>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
-          <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', width: '80%', height: '100%' ,marginBottom:"2%"}} className="my-7">
+          <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', width: {xs:"95%",sm:"85%",md:'80%'}, height: '100%' ,marginBottom:"2%"}} className="my-7">
             <SecondSwiper />
           </Box>
         </Box>
@@ -119,33 +119,33 @@ export default function page() {
       {/* last */}
       <Box sx={{ width: '100%', height: 'auto', direction: 'rtl' }} >
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', height: '20%' }}>
-          <h1 className='font-is font-extrabold text-[28px] text-black my-[5%]'>اخبار و تازه‌ها</h1>
+          <h1 className='font-is font-extrabold text-[28px] text-black mt-[5%]'>اخبار و تازه‌ها</h1>
         </Box>
        <Box sx={{width:'100%', height:'80%', display:'flex'}} className='p-[10%]'>
 
          <Box sx={{ width: '50%', }}>
           <Box sx={{ fontSize: '8px', display: 'flex' }}>
-            <CalendarMonthIcon sx={{ fontSize: '10px' }} />
-            <p   className='border-b-2 border-[#facf54]'>
-              شنبه، ۲۴ شهریور ۱۴۰۳</p>
+            <CalendarMonthIcon sx={{ fontSize: '14px' }} />
+            <p   className='border-b-2 border-[#facf54] font-is text-[10px]'>
+              دوشنبه، ۷ مهر ۱۴۰۴</p>
           </Box>
           <h1 className='w-full text-[18px] font-is font-extrabold my-10'>پیشنهادهای جذاب شاتل در روزهای پایانی تابستان، برای خرید ...</h1>
-          <p className='w-[70%] text-[12px] font-is my-10'>بسته‌های ۱۰۰، ۲۰۰ و ۳۰۰ گیگابایتی ترافیک نقره‌ای اینترنت ثابت شاتل با تخفیف‌ ویژه، از ۲۴ تا ۳۱ شهریور ۱۴۰۳ در سراسر کشور ارائه می‌شود. با توجه به استقبال مشتریان عزیز از شرایط ویژه خرید بسته‌های ترافیک، شاتل پیشنهادهای ویژه‌ای برای خرید این بسته‌ها در نظر گرفته است. مشتریان فعلی شاتل می‌توانند از ۲۴ تا ...</p>
+          <p className='w-[70%] text-[12px] font-is my-10'>بسته‌های ۱۰۰، ۲۰۰ و ۳۰۰ گیگابایتی ترافیک نقره‌ای اینترنت ثابت شاتل با تخفیف‌ ویژه، از ۲۴ تا ۳۱ شهریور ۱۴۰۴ در سراسر کشور ارائه می‌شود. با توجه به استقبال مشتریان عزیز از شرایط ویژه خرید بسته‌های ترافیک، شاتل پیشنهادهای ویژه‌ای برای خرید این بسته‌ها در نظر گرفته است. مشتریان فعلی شاتل می‌توانند از ۲۴ تا ...</p>
           <Button sx={{ width: '180px', backgroundColor: '#5393ee', color: 'white', borderRadius: '20px', boxShadow: '10px 10px 100px 0 black)' }} className='font-is butt'>
-            بشتر بخوانید
+            بیشتر بخوانید
           </Button>
 
         </Box>
         <Box sx={{ width: '50%' }}>
           <Box sx={{ fontSize: '8px', display: 'flex' ,}}>
-            <CalendarMonthIcon sx={{ fontSize: '10px' }} />
-            <p className='border-b-2 border-[#facf54]'>
-            یکشنبه، ۱۸ شهریور ۱۴۰۳</p>
+            <CalendarMonthIcon sx={{ fontSize: '14px' }} />
+            <p className='border-b-2 border-[#facf54] font-is text-[10px]'>
+             شنبه، ۵ مهر ۱۴۰۴</p>
           </Box>
           <h1 className='w-full text-[18px] font-is font-extrabold my-10'>۶۰ گیگابایت ترافیک نقره‌ای با ۵۰‌درصد تخفیف در دوشنبه ...</h1>
           <p className='w-[70%] text-[12px] font-is my-10'>به پاس همراهی کاربران عزیز شاتل، این ماه نیز بر اساس وعده‌ای که پیش‌تر داده بودیم، یک تخفیف ویژه روی ترافیک اینترنت پرسرعت برای کاربران فعلی در نظر گرفته‌ایم. شاتلی‌ها می‌توانند این دوشنبه، ۱۹ شهریورماه، با مراجعه به پورتال کاربری خود (My.Shatel.ir) به‌مدت ۲۴ ساعت، ۶۰ گیگابایت ترافیک نقره‌ای اینترنت پرسرعت با اعتبار یک‌ساله را ...</p>
           <Button sx={{ width: '180px', backgroundColor: '#5393ee', color: 'white', borderRadius: '20px', boxShadow: '10px 10px 100px 0 black)' }} className='font-is butt'>
-            بشتر بخوانید
+            بیشتر بخوانید
           </Button>
 
         </Box>
@@ -155,7 +155,7 @@ export default function page() {
         <Box sx={{position:'fixed',width:'60px',height:'60px',borderRadius:'50%',backgroundColor:'#3f86ec',bottom:'1%',right:'1%',display:'flex',justifyContent:'center',alignItems:'center'}} >
             <TransitionsModal/>
         </Box>
-    </div>
+    </Box>
   )
 }
 

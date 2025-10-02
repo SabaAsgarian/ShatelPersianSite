@@ -32,7 +32,7 @@ html,body{
   transition:1s;
   &:hover{
     transform: perspective(900px)translate3d(0 ,-10px ,-10px);
-    box-shadow: 0 0 20px 0 black;
+    box-shadow: 0 0 20px 0 #abb8c3;
   }
 }
 .fourth{
