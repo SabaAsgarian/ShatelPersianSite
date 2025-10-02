@@ -62,6 +62,7 @@ const HeaderContainer = styled(Box)(({ isFixed }) => ({
     right: 0,
     backgroundColor: 'white',
     zIndex: 1000,
+    fontFamily:"is"
 }));
 
 // New styled component for WhatsApp support
@@ -122,11 +123,13 @@ const AppBar = styled(MuiAppBar)(({ theme }) => ({
     background: 'linear-gradient(50deg,#00abf7,#007aef)',
     color: 'white',
     height: '50px',
-    boxShadow: '0'  // Change to static
+    boxShadow: '0' , // Change to static
+    fontFamily:"is",
 }));
 
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
+    fontFamily:"is",
     alignItems: 'center',
     padding: theme.spacing(0, 1),
     ...theme.mixins.toolbar,
@@ -137,7 +140,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 const StyledDrawer = styled(Drawer)(({ theme }) => ({
     '& .MuiDrawer-paper': {
         width: drawerWidth,
-
+        fontFamily:"is",
         color: 'white',
         background: '#1b162d'
 
@@ -413,7 +416,8 @@ export default function PrimarySearchAppBar() {
                                 </IconButton >
                                 <Box sx={{ display: 'flex', fontSize: '12px', alignItems: 'center', justifyContent: 'center' }}>
                                     <CallIcon className='flex justify-center items-center text-[14px]'/>
-                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
+                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰  </Typography>
+                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> شماره سراسری  </Typography>
                                 </Box>
                             </Box>
                         )}
@@ -496,7 +500,7 @@ export default function PrimarySearchAppBar() {
                                         display: 'block', // Show mega menu on hover
                                     },
                                 }}
-                                className="font-is"
+                                className="font-is text-[12px] font-bold text-[#4f4f4f]"
                             >
                                 محصولات و خدمات
                             </Typography>
@@ -512,21 +516,21 @@ export default function PrimarySearchAppBar() {
                                         display: 'block', // Show mega menu on hover
                                     },
                                 }}
-                                className="font-is"
+                                className="font-is text-[12px] font-bold text-[#4f4f4f]"
                             >
                                 پشتیبانی
                             </Typography>
                             <MegaMenup /> {/* Include the MegaMenu component */}
                         </Box>
-                        <li className='list-none font-is text-[14px] mr-5 '>چرا شاتل؟</li>
+                        <li className='list-none font-is text-[12px] font-bold mr-5 text-[#4f4f4f]'>چرا شاتل؟</li>
 
                     </Box>
                 </Box>
                 <Box sx={{ display: 'flex' }}>
-                    <SearchIcon sx={{ backgroundColor: "#cccdd1", borderRadius: '50%', color: 'white', width: '40px', height: '40px', marginLeft: '10px' }} className='text-[10px]' />
+                    <SearchIcon sx={{ backgroundColor: "#cccdd1", borderRadius: '50%', color: 'white', width: '40px', height: '40px', marginLeft: '10px' }}  />
                     <Button sx={{ backgroundColor: '#56c45f', borderRadius: '20px', color: 'white', width: '190px' }} >
-                        <PersonOutlineIcon />
-                        <Typography sx={{fontFamily:'is'}} className='text-[14px] font-is'>
+                        <PersonOutlineIcon  />
+                        <Typography sx={{fontFamily:'is'}} className='text-[13px] font-is'>
 
                             ورود به مای شاتل
 
