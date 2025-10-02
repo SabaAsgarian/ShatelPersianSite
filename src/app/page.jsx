@@ -106,12 +106,12 @@ export default function page() {
         </Box>
       </Box>
       {/* fifth///////////////////////////////////////////// */}
-      <Box sx={{ height: 'auto', width: '100%', }} className='fifth'>
+      <Box sx={{ minHeight: {xs:"70vh",md:"80vh",lg:"100vh"},maxHeight:"auto", width: '100%', }} className='fifth'>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', height: '20%' }} className="">
           <h1 className='font-is text-[28px] text-black font-extrabold my-[5%]'>پیشنهادها</h1>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
-          <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', width: '80%', height: '100%' }} className="my-7">
+          <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center', width: '80%', height: '100%' ,marginBottom:"2%"}} className="my-7">
             <SecondSwiper />
           </Box>
         </Box>
