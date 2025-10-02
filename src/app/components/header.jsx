@@ -73,9 +73,11 @@ const SupportContainer = styled(Box)({
     justifyContent: 'center',
     alignItems: 'center',
     padding: '10px 0',
+    fontFamily:"is"
 });
 
 const Search = styled('div')(({ theme }) => ({
+    fontFamily:"is",
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
     backgroundColor: alpha(theme.palette.common.white, 0.15),
@@ -99,10 +101,12 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    fontFamily:"is"
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
     color: 'inherit',
+    fontFamily:"is",
     '& .MuiInputBase-input': {
         padding: theme.spacing(1, 1, 1, 0),
         // vertical padding + font size from searchIcon
@@ -146,6 +150,7 @@ const StyledDrawer = styled(Drawer)(({ theme }) => ({
 
     },
     zIndex: theme.zIndex.drawer + 2,
+    fontFamily:"is"
 }));
 
 export default function PrimarySearchAppBar() {
@@ -385,17 +390,17 @@ export default function PrimarySearchAppBar() {
                                 >
                                     ارتباط با ما
                                 </Link>
-                                <Link
-                                    href="/"
-                                    style={{ color: 'white', textDecoration: 'none', display: 'flex', alignContent: 'center', justifyContent: 'center',fontFamily:'is' }}
+                                <Box
+                                    
+                                    sx={{ color: 'white', textDecoration: 'none', display: 'flex', alignContent: 'center', justifyContent: 'center',fontFamily:'is' }}
                                 >
                                     <CallIcon className='flex justify-center items-center text-[12px]' />
-                                    <Typography sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
-                                </Link>
+                                    <Typography sx={{ fontFamily:'is', marginLeft: 1,fontSize:"12px" }} className='font-is font-extrabold text-[11px]'> ۰۲۱۹۱۰۰۰۰۰۰ شماره سراسری</Typography>
+                                </Box>
                                 <Link
                                     href="/"
                                     ref={(el) => (links.current[5] = el)}
-                                    style={{ color: 'white', margin: '0 10px', textDecoration: 'none' }}
+                                    style={{ color: 'white', margin: '0 10px', textDecoration: 'none',fontFamily:"is" }}
                                     className='font-is headr'
                                     onClick={() => handleSpanClick(5)}
                                 >
@@ -414,10 +419,10 @@ export default function PrimarySearchAppBar() {
                                     <MenuIcon className='border-2 border-white rounded'/>
 
                                 </IconButton >
-                                <Box sx={{ display: 'flex', fontSize: '12px', alignItems: 'center', justifyContent: 'center' }}>
+                                <Box sx={{ display: 'flex', fontSize: '10px', alignItems: 'center', justifyContent: 'center' }}>
                                     <CallIcon className='flex justify-center items-center text-[14px]'/>
-                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> ۰۲۱۹۱۰۰۰۰۰۰  </Typography>
-                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1 }} className='font-is font-extrabold text-[12px]'> شماره سراسری  </Typography>
+                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1,fontSize:"10px" }} className='font-is font-extrabold text-[10px]'> ۰۲۱۹۱۰۰۰۰۰۰  </Typography>
+                                    <Typography variant="h6" sx={{ fontFamily:'is', marginLeft: 1,fontSize:"10px" }} className='font-is font-extrabold text-[10px]'> شماره سراسری  </Typography>
                                 </Box>
                             </Box>
                         )}
@@ -495,6 +500,7 @@ export default function PrimarySearchAppBar() {
 
                                 sx={{
                                     fontFamily:'is',
+                                    fontSize:"12px",
                                     cursor: 'pointer',
                                     '&:hover + div': {
                                         display: 'block', // Show mega menu on hover
@@ -511,6 +517,7 @@ export default function PrimarySearchAppBar() {
 
                                 sx={{
                                     fontFamily:'is',
+                                    fontSize:"12px",
                                     cursor: 'pointer',
                                     '&:hover + div': {
                                         display: 'block', // Show mega menu on hover
@@ -530,7 +537,7 @@ export default function PrimarySearchAppBar() {
                     <SearchIcon sx={{ backgroundColor: "#cccdd1", borderRadius: '50%', color: 'white', width: '40px', height: '40px', marginLeft: '10px' }}  />
                     <Button sx={{ backgroundColor: '#56c45f', borderRadius: '20px', color: 'white', width: '190px' }} >
                         <PersonOutlineIcon  />
-                        <Typography sx={{fontFamily:'is'}} className='text-[13px] font-is'>
+                        <Typography sx={{fontFamily:'is',fontSize:"12px"}} className='text-[13px] font-is'>
 
                             ورود به مای شاتل
 
