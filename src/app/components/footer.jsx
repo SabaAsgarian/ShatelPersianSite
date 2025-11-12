@@ -83,7 +83,7 @@ export default function footer() {
                                     <InstagramIcon sx={{ color: 'white', ml: '2%' }} /> 
                                     </Box>
                                 </Link>
-                                <Link href='https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target="_blank">
+                                <Link href='https://www.linkedin.com/in/saba-asgarian-69161088"_blank">
                                     <Box sx={{backgroundColor:'#0077b5',borderRadius:'50%',width:'40px',height:'40px',display:'flex',justifyContent:'center',alignItems:'center'}}  className=" mx-2 box-hover">
                                     <LinkedInIcon sx={{ color: 'white', ml: '2%' }} /> {/* Set color here */}
                                     </Box>
@@ -107,3 +107,4 @@ export default function footer() {
         </>
     )
 }
+
